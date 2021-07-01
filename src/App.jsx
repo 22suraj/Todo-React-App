@@ -3,7 +3,9 @@ import "tailwindcss/tailwind.css";
 function App() {
   return (
     <div className="bg-gradient-to-r from-green-400 to-blue-500 h-screen">
-      <h1 className="text-4xl font-bold text-center py-8 bg-gradient-to-r from-green-100 to-blue-500">Todo List</h1>
+      <h1 className="text-4xl font-bold text-center py-8 bg-gradient-to-r from-green-100 to-blue-500">
+        Todo List
+      </h1>
       <div class="px-10 my-5">
         <input
           type="text"
